@@ -18,3 +18,19 @@ a {
   height: 100px;
   max-height: 225px;
 }
+
+.grid-header {
+    font-size: 11px;
+}
+
+#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.blue {
+    color: blue;
+}
+
