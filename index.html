@@ -6,6 +6,7 @@
         </title>
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
@@ -13,32 +14,38 @@
     
     <body>
         
-        <div class = "container-fluid fixed-top" id= "logo_finance_title">
-           <img class = "mx-auto d-block" width = "200px" height = "auto" src = "yahoo_white_logo.png">
+        <div class = "container-fluid fixed-top logo_finance_title">
+            <div id = yahoologo>
+           <img class=  "mx-auto d-block" width = "200px" height = "auto" src = "yahoo_white_logo.png">
+           </div>
                 <h3 class = "mx-auto" style = "width: 110px; color: white;">FINANCE</h3>
-         
-        <nav class="navbar navbar-light navbar-expand container" style="background-color: white;">
-            <div class = "container-fluid">
-            <ul class = "nav navbar-nav">
-               
-              
-                <li class = "active" style = "padding-right: 20px;">
-                    <a class = "nav-link" href = "#">FINANCE HOME</a>
-                </li>
-              
-                <li id = watchlist>
-                    <a class = "nav-link" href = "secondary_page.html">WATCHLISTS</a>
-                </li>
                 
-            </ul>
+             
+        <nav class="navbar navbar-light navbar-expand container">
+            <div class = "container-fluid">
+                <ul class = "nav navbar-nav">
+                    <li class = "active" style = "padding-right: 20px;">
+                        <a class = "nav-link" href = "#">FINANCE HOME</a>
+                    </li>
+              
+                    <li id = watchlist>
+                        <a class = "nav-link" href = "secondary_page.html">WATCHLISTS</a>
+                    </li>
+                
+                    <form>
+                        <div class = "form-inline">
+                            <input type = "text" placeholder = "search" name = "search">
+                            <button type = "submit" class = "btn btn-default">Submit</button>
+                        </div>
+                    </form>
+                </ul>
 
         </nav>
+            </div>
         </div>
-        </div>
-       
         </br>
         
-        <div style = "margin-top: 190px;"id = "carouselStocks" class = "carousel slide" data-ride = "carousel">
+        <div id = "carouselStocks" class = "carousel slide" data-ride = "carousel">
             <div class = "carousel-inner">
                 <div class = "carousel-item active">
                     <img class = "mx-auto d-block w-70" src = "stock_graph_4full.JPG"> 
@@ -54,102 +61,109 @@
         </br>
         
         <div class = "container-fluid">
-            <a href = "https://finance.yahoo.com/news/8-pot-stocks-rise-above-183538666.html" style = "text-decoration: none">        
-            <div class = "card" style = "width: 50rem;">
-                <div class = "row no-gutters">
-                    <div class = "aol-auto">
-                     <img style= "width: 250px; height: auto" src = "https://s.yimg.com/bt/api/res/1.2/xoMYMy1Q9uecpbBZjH4IMg--~A/YXBwaWQ9eW5ld3M7c209MTt3PTcyODtoPTQwMA--/http://media.zenfs.com/en-US/homerun/investorplace_417/1feb1c3d34f8603f65b1256e17e74d00" alt = "3 entrepeneurs">
-                </div>
-                <div class = "col">
-                <div class = "card-block px-2" style = "color: black;">
-                        <h5 class = "card-title">8 Pot Stocks That Can Rise Above Marijuana Controversies</h5>
-                        <p class = "card-text">Right now, the biggest trends in the markets are artificial intelligence, the blockchain and marijuana. Of these, marijuana represents the subject matter about which investors should know the most. After all, marijuana has been around as long as man has walked the earth.</p>
-                    </div>
-                </div>    
-            </div>
+            <img id = "musicposter" src="https://s0.2mdn.net/6035383/PushaT_300x250_081118.jpg"></img>
         </div>
-        </a>
-        </br>
+        <div class = "container-fluid">
+            <a href = "https://finance.yahoo.com/news/8-pot-stocks-rise-above-183538666.html" style = "text-decoration: none">        
+                <div class = "card" style = "width: 50rem;">
+                    <div class = "row no-gutters">
+                        <div class = "aol-auto">
+                            <img style= "width: 250px; height: auto" src = "https://s.yimg.com/bt/api/res/1.2/xoMYMy1Q9uecpbBZjH4IMg--~A/YXBwaWQ9eW5ld3M7c209MTt3PTcyODtoPTQwMA--/http://media.zenfs.com/en-US/homerun/investorplace_417/1feb1c3d34f8603f65b1256e17e74d00" alt = "3 entrepeneurs">
+                        </div>
+                            <div class = "col">
+                                <div class = "card-block px-2" style = "color: black;">
+                                    <h5 class = "card-title">8 Pot Stocks That Can Rise Above Marijuana Controversies</h5>
+                                    <p class = "card-text">Right now, the biggest trends in the markets are artificial intelligence, the blockchain and marijuana. Of these, marijuana represents the subject matter about which investors should know the most. After all, marijuana has been around as long as man has walked the earth.</p>
+                                </div>
+            </a>
+                            </div>    
+                    </div>
+                </div>
+        
+            </br>
         
             <a href = "https://finance.yahoo.com/m/5ed3d9ae-cd31-3242-aa09-3f353c0ec604/bitcoin-prices-sink-on-%24400.html" style = "text-decoration: none">        
-            <div class = "card" style = "width: 50rem;">
-                <div class = "row no-gutters">
-                    <div class = "aol-auto">
-                     <img style= "width: 250px; height: auto" src = "https://s.yimg.com/bt/api/res/1.2/WlOh8FrLx_ZQ3nBB8B4.Aw--~A/YXBwaWQ9eW5ld3M7c209MTt3PTgwMA--/http://media.zenfs.com/en-US/homerun/marketwatch.com/e2a295345a4c7011f76bed1cfe245422" alt = "3 entrepeneurs">
-                </div>
-                <div class = "col">
-                <div class = "card-block px-2" style = "color: black;">
-                        <h5 class = "card-title">Bitcoin prices sink on $400 million sale, extending crypto slump</h5>
-                        <p class = "card-text">Bitcoin, the worlds more prominent digital currency, opened lower Friday and is poised for six consecutive daily losses, less than three weeks after it notched six successive winning sessions. “An enormous long</p>
+                <div class = "card" style = "width: 50rem;">
+                    <div class = "row no-gutters">
+                        <div class = "aol-auto">
+                         <img style= "width: 250px; height: auto" src = "https://s.yimg.com/bt/api/res/1.2/WlOh8FrLx_ZQ3nBB8B4.Aw--~A/YXBwaWQ9eW5ld3M7c209MTt3PTgwMA--/http://media.zenfs.com/en-US/homerun/marketwatch.com/e2a295345a4c7011f76bed1cfe245422" alt = "3 entrepeneurs">
+                        </div>
+                            <div class = "col">
+                                <div class = "card-block px-2" style = "color: black;">
+                                <h5 class = "card-title">Bitcoin prices sink on $400 million sale, extending crypto slump</h5>
+                                <p class = "card-text">Bitcoin, the worlds more prominent digital currency, opened lower Friday and is poised for six consecutive daily losses, less than three weeks after it notched six successive winning sessions. “An enormous long</p>
+                            </div>
+                            </a>
+                        </div>    
                     </div>
-                </div>    
-            </div>
-        </div>
-        </a>
-        </br>
+                </div>
+            
+            </br>
         
          <a href = "https://finance.yahoo.com/m/caa3aad0-1bc3-3bf8-8541-fe9a49bb553e/cbs%E2%80%99s-board-pretends.html" style = "text-decoration: none">        
             <div class = "card" style = "width: 50rem;">
                 <div class = "row no-gutters">
                     <div class = "aol-auto">
-                     <img style= "width: 250px; height: auto" src = "https://s.yimg.com/bt/api/res/1.2/D_fK0PJu07Sn3XGnObRGKw--~A/YXBwaWQ9eW5ld3M7c209MTt3PTgwMA--/http://globalfinance.zenfs.com/en_us/News/Reuters/bd7c04c8064b5cb591b177520afd20e3" alt = "3 entrepeneurs">
-                </div>
-                <div class = "col">
-                <div class = "card-block px-2" style = "color: black;">
-                        <h5 class = "card-title">CBS's Board Pretends to Know What It's Doing</h5>
-                        <p class = "card-text">CBS Corp. takes the prize this year for most dysfunctional corporate governance. The $20 billion media company is mired in a bitter legal battle against its controlling shareholder, Shari Redstone, a situation that has turned nasty, with both sides trading jabs and accusations in recent months. .</p>
+                         <img style= "width: 250px; height: auto" src = "https://s.yimg.com/bt/api/res/1.2/D_fK0PJu07Sn3XGnObRGKw--~A/YXBwaWQ9eW5ld3M7c209MTt3PTgwMA--/http://globalfinance.zenfs.com/en_us/News/Reuters/bd7c04c8064b5cb591b177520afd20e3" alt = "3 entrepeneurs">
                     </div>
-                </div>    
-            </div>
-        </div>
-        </a>
+                        <div class = "col">
+                            <div class = "card-block px-2" style = "color: black;">
+                                <h5 class = "card-title">CBS's Board Pretends to Know What It's Doing</h5>
+                                <p class = "card-text">CBS Corp. takes the prize this year for most dysfunctional corporate governance. The $20 billion media company is mired in a bitter legal battle against its controlling shareholder, Shari Redstone, a situation that has turned nasty, with both sides trading jabs and accusations in recent months. .</p>
+                            </div>
+                            </a>
+                        </div>    
+                    </div>
+                </div>
+        
         </br>
         
-        
-            <a href = "https://finance.yahoo.com/news/vanguard-cio-says-investors-must-183018129.html" style = "text-decoration: none">        
-            <div class = "card" style = "width: 50rem;">
-                <div class = "row no-gutters">
-                    <div class = "aol-auto">
-                     <img style= "width: 250px; height: auto" src = "https://s.yimg.com/bt/api/res/1.2/gmy_sHJ77J4ALvZI_8baCQ--~A/YXBwaWQ9eW5ld3M7c209MTt3PTgwMA--/http://globalfinance.zenfs.com/en_us/News/Reuters/4d42c26e44dc43033728692f516055c0" alt = "3 entrepeneurs">
-                </div>
-                <div class = "col">
-                <div class = "card-block px-2" style = "color: black;">
-                        <h5 class = "card-title">Vanguard CIO Says Investors Must Consider ‘Catch’ of Free Funds</h5>
-                        <p class = "card-text">There’s more than meets the eye when it comes to the free funds unveiled by Fidelity Investments this week, according to Vanguard Group Chief Investment Officer Greg Davis.</p>
-                    </div>
-                </div>    
-            </div>
-        </div>
-        </a>
-        </br>
-        
-           <a href = "http://energymetalnews.com/2018/01/13/energy-metals-prices-will-continue-to-grow-past-2024-junior-miners-are-the-catalyst/" style = "text-decoration: none">        
-            <div class = "card" style = "width: 50rem;">
-                <div class = "row no-gutters">
-                    <div class = "aol-auto">
-                     <img style= "width: 250px; height: auto" src = "http://americannewsgroup.com/wp-content/uploads/2017/08/borne_electrique.jpg" alt = "3 entrepeneurs">
-                </div>
-                <div class = "col">
-                <div class = "card-block px-2" style = "color: black;">
-                        <h5 class = "card-title">Lithium Stocks: This Will Make Your Portfolio Rise</h5>
-                        <p class = "card-text">As most investors already know, lithium is the crucial white powder for revolutionizing the future of energy in the form of Lithium-ion batteries. It’s in record high demand thanks to automakers like Tesla and others who are looking to double or even triple EV (Electric Vehicle) production over the next few years.</p>
-                    </div>
-                </div>    
-            </div>
-        </div>
-        </a>
-        </br>
-        <h5>To receive emails from Yahoo Finance, please enter your email below.</h5>
+         <div style = "float: right;">
+            <img src="https://s0.2mdn.net/6035383/PlayboiCarti_300x250_070318.jpg"></img>
             
-            <form>
-                <div class = "form-inline">
-                    <input type = "email" class = "form-control" name = "email">
-                    
-                    <button type = "submit" class = "btn btn-default">Submit</button>
+        </div>
+        
+        <a href = "https://finance.yahoo.com/news/vanguard-cio-says-investors-must-183018129.html" style = "text-decoration: none">        
+            <div class = "card" style = "width: 50rem;">
+                <div class = "row no-gutters">
+                    <div class = "aol-auto">
+                         <img style= "width: 250px; height: auto" src = "https://s.yimg.com/bt/api/res/1.2/gmy_sHJ77J4ALvZI_8baCQ--~A/YXBwaWQ9eW5ld3M7c209MTt3PTgwMA--/http://globalfinance.zenfs.com/en_us/News/Reuters/4d42c26e44dc43033728692f516055c0" alt = "3 entrepeneurs">
+                    </div>
+                        <div class = "col">
+                            <div class = "card-block px-2" style = "color: black;">
+                                <h5 class = "card-title">Vanguard CIO Says Investors Must Consider ‘Catch’ of Free Funds</h5>
+                                <p class = "card-text">There’s more than meets the eye when it comes to the free funds unveiled by Fidelity Investments this week, according to Vanguard Group Chief Investment Officer Greg Davis.</p>
+                            </div>
+                            </a>
+                        </div>    
                 </div>
-                
-            </form>
             </div>
         
+        </br>
+        
+       
+         <a href = "http://energymetalnews.com/2018/01/13/energy-metals-prices-will-continue-to-grow-past-2024-junior-miners-are-the-catalyst/" style = "text-decoration: none">        
+            <div class = "card" style = "width: 50rem;">
+                <div class = "row no-gutters">
+                    <div class = "aol-auto">
+                         <img style= "width: 250px; height: auto" src = "http://americannewsgroup.com/wp-content/uploads/2017/08/borne_electrique.jpg" alt = "3 entrepeneurs">
+                    </div>
+                        <div class = "col">
+                            <div class = "card-block px-2" style = "color: black;">
+                                <h5 class = "card-title">Lithium Stocks: This Will Make Your Portfolio Rise</h5>
+                                <p class = "card-text">As most investors already know, lithium is the crucial white powder for revolutionizing the future of energy in the form of Lithium-ion batteries. It’s in record high demand thanks to automakers like Tesla and others who are looking to double or even triple EV (Electric Vehicle) production over the next few years.</p>
+                            </div>
+                            </a>
+                        </div>    
+                </div>
+            </div>
+    
+        </br>
+    
+            
+        </div>
     </body>
+       <footer style = "padding: 100px 20px 20px 20px;">Yahoo Finance Tribute - Rose Parker</footer>
 </html>
+
+ 
