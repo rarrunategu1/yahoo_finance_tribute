@@ -1,0 +1,125 @@
+/* Styling for the table of stock data */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Styles the components of the table */
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Makes it so every other row is shaded */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Colors the positive numbers on the stock data table green */
+.positiveNumber {
+    color: green;
+}
+
+/* Colors the negative numbers on the stock data table red */
+.negativeNumber {
+    color: red;
+}
+
+/* Styling for the footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+}
+
+/* Give the button a 3d look */
+.button{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #b3b3cc;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+/* Change the background color of the button upon hover */
+.button:hover {
+    background-color: #666699
+}
+
+/* Gives the effect of pushing a button */
+.button:active {
+    background-color: #7575a3;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/* To color the navbar items*/
+.navbar ul li a {
+    text-decoration: none;
+    color: #fefbd8;
+}
+ #form-design1 {
+     font-family: 'Fjalla One', sans-serif;
+     font-size: 12px; 
+     font-weight: lighter;
+ }
+
+ #form-design2 {
+     font-family: 'Fjalla One', sans-serif;
+     font-size: 12px; 
+     font-weight: lighter;
+ }
+/* Changes the color of the navbar items upon hover */
+.navbar ul li:hover a {
+    color: black;
+}
+
+/* Styles the logo */
+.logo-look {
+    display: inline-block;
+    height: 100px;
+    padding: 25px;
+}
+
+#form-style {
+    border: 1px solid #ced4da;
+    background-color: white;
+}
+/* Styles the header text */
+.header-text {
+    display: inline;
+    font-family: 'Sunflower', sans-serif;
+}
+
+/* To change the styling of a bootstrap class */
+#footer-override {
+    background-color: #7F4145;
+}
+
+/* Styling the footer */
+.footer-style {
+    background-color: #7F4145;
+    padding-top: 15px;
+    font-family: 'Sunflower', sans-serif;
+}
+
+/* To show the user which page they are currently on */
+.active-page {
+    background-color: #36486b;
+}
+
+/* To change the style of the given bootstrap class*/
+#social-button {
+    background-color: #36486b;
+}
