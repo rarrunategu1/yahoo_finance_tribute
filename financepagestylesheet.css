@@ -13,6 +13,11 @@ th {
     padding: 8px;
 }
 
+/* Change the size of the text in the table */
+td {
+    font-size: 2em;
+}
+
 /* Makes it so every other row is shaded */
 tr:nth-child(even) {
     background-color: #f2f2f2;
@@ -38,9 +43,19 @@ tr:nth-child(even) {
     text-align: center;
 }
 
+/* Change the size of my h6's */
+h6 {
+    font-size: 1em;
+}
+
+/* CHange the size of the contents of the table */
+#table-text {
+    font-size: .7em;
+}
+
 /* Give the button a 3d look */
-.button{
-    padding: 15px 25px;
+.button-a{
+    padding: 15px;
     font-size: 24px;
     text-align: center;
     cursor: pointer;
@@ -53,12 +68,12 @@ tr:nth-child(even) {
 }
 
 /* Change the background color of the button upon hover */
-.button:hover {
+.button-a:hover {
     background-color: #666699
 }
 
 /* Gives the effect of pushing a button */
-.button:active {
+.button-a:active {
     background-color: #7575a3;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
@@ -123,3 +138,4 @@ tr:nth-child(even) {
 #social-button {
     background-color: #36486b;
 }
+
