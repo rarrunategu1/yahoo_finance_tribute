@@ -13,11 +13,6 @@ th {
     padding: 8px;
 }
 
-/* Change the size of the text in the table */
-td {
-    font-size: 2em;
-}
-
 /* Makes it so every other row is shaded */
 tr:nth-child(even) {
     background-color: #f2f2f2;
@@ -43,19 +38,13 @@ tr:nth-child(even) {
     text-align: center;
 }
 
-/* Change the size of my h6's */
+/* Change the size of any h6 tags */
 h6 {
     font-size: 1em;
 }
 
-/* CHange the size of the contents of the table */
-#table-text {
-    font-size: .7em;
-}
-
 /* Give the button a 3d look */
 .button-a{
-    padding: 15px;
     font-size: 24px;
     text-align: center;
     cursor: pointer;
@@ -79,25 +68,21 @@ h6 {
     transform: translateY(4px);
 }
 
-/* To color the navbar items*/
+/* To color the navbar items */
 .navbar ul li a {
     text-decoration: none;
     color: #fefbd8;
 }
- #form-design1 {
-     font-family: 'Fjalla One', sans-serif;
-     font-size: 12px; 
-     font-weight: lighter;
- }
 
- #form-design2 {
-     font-family: 'Fjalla One', sans-serif;
-     font-size: 12px; 
-     font-weight: lighter;
- }
 /* Changes the color of the navbar items upon hover */
 .navbar ul li:hover a {
     color: black;
+}
+
+#navbar-design {
+    background-color: #7F4145;
+    color: #fefbd8; 
+    font-family: 'Sunflower', sans-serif;
 }
 
 /* Styles the logo */
@@ -107,10 +92,6 @@ h6 {
     padding: 25px;
 }
 
-#form-style {
-    border: 1px solid #ced4da;
-    background-color: white;
-}
 /* Styles the header text */
 .header-text {
     display: inline;
@@ -122,7 +103,7 @@ h6 {
     background-color: #7F4145;
 }
 
-/* Styling the footer */
+/* Styles the footer */
 .footer-style {
     background-color: #7F4145;
     padding-top: 15px;

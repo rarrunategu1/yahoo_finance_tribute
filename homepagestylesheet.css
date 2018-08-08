@@ -126,8 +126,7 @@
 }
 
 /* Give the button a 3d look*/
-.button {
-    padding: 15px;
+.button-a {
     font-size: 24px;
     text-align: center;
     cursor: pointer;
@@ -140,12 +139,12 @@
 }
 
 /* Change the background color of the button upon hover */
-.button:hover {
+.button-a:hover {
   background-color: #666699
 }
 
 /* Gives the effect of pushing a button */
-.button:active {
+.buttona:active {
   background-color: #7575a3;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
