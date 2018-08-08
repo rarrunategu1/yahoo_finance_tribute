@@ -79,17 +79,8 @@
   bottom: auto;
 }
 
-.row-eq-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-} 
-
 /* Styles the footer */
 .footer {
-  
- /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;
